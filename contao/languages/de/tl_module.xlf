@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="tl_module">
+        <body>
+            <!-- Legend -->
+            <trans-unit id="tl_module.cta_legend">
+                <source>CTA Button settings</source>
+                <target>CTA-Schaltflächeneinstellungen</target>
+            </trans-unit>
+
+            <!-- Fields -->
+            <trans-unit id="tl_module.ctaTitle.0">
+                <source>CTA link title</source>
+                <target>CTA-Linktitel</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaTitle.1">
+                <source>Enter the title for the CTA module.</source>
+                <target>Geben Sie den Titel für das CTA-Modul ein.</target>
+            </trans-unit>
+
+            <trans-unit id="tl_module.ctaUrl.0">
+                <source>CTA Url</source>
+                <target>CTA-URL</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaUrl.1">
+                <source>Enter the url for CTA.</source>
+                <target>Geben Sie die URL für das CTA ein.</target>
+            </trans-unit>
+
+            <trans-unit id="tl_module.ctaText.0">
+                <source>CTA button text</source>
+                <target>CTA-Schaltflächentext</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaText.1">
+                <source>Enter the default text to be shown in CTA.</source>
+                <target>Geben Sie den Standardtext für das CTA ein.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
