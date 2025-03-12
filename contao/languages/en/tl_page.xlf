@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="tl_page">
+        <body>
+            <!-- Legend -->
+            <trans-unit id="tl_page.cta_legend">
+                <source>CTA button settings</source>
+            </trans-unit>
+
+            <!-- Fields -->
+            <trans-unit id="tl_page.ctaDisabled.0">
+                <source>Disable cta</source>
+            </trans-unit>
+            <trans-unit id="tl_page.ctaDisabled.1">
+                <source>Check this box to disable the CTA button on this page.</source>
+            </trans-unit>
+
+            <trans-unit id="tl_page.ctaTitle.0">
+                <source>CTA url title</source>
+            </trans-unit>
+            <trans-unit id="tl_page.ctaTitle.1">
+                <source>Enter the link title for the CTA button or link.</source>
+            </trans-unit>
+
+            <trans-unit id="tl_page.ctaUrl.0">
+                <source>CTA url</source>
+            </trans-unit>
+            <trans-unit id="tl_page.ctaUrl.1">
+                <source>Enter the url for CTA.</source>
+            </trans-unit>
+
+            <trans-unit id="tl_page.ctaText.0">
+                <source>Button text</source>
+            </trans-unit>
+            <trans-unit id="tl_page.ctaText.1">
+                <source>Enter the tex of button of CTA.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
