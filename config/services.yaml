@@ -1,0 +1,10 @@
+# config/services.yaml
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true    
+
+    Respinar\ContaoCtaBundle\:
+        resource: ../src/
+        exclude: ../src/ContaoManager
+
