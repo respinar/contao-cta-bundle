@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fa" datatype="plaintext" original="tl_module">
+        <body>
+            <!-- Legend -->
+            <trans-unit id="tl_module.cta_legend">
+                <source>CTA Button settings</source>
+                <target>تنظیمات دکمه اقدام</target>
+            </trans-unit>
+
+            <!-- Fields -->
+            <trans-unit id="tl_module.ctaTitle.0">
+                <source>CTA link title</source>
+                <target>عنوان لینک CTA</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaTitle.1">
+                <source>Enter the title for the CTA module.</source>
+                <target>عنوان ماژول CTA را وارد کنید.</target>
+            </trans-unit>
+
+            <trans-unit id="tl_module.ctaUrl.0">
+                <source>CTA Url</source>
+                <target>آدرس URL CTA</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaUrl.1">
+                <source>Enter the url for CTA.</source>
+                <target>آدرس URL برای CTA را وارد کنید.</target>
+            </trans-unit>
+
+            <trans-unit id="tl_module.ctaText.0">
+                <source>CTA button text</source>
+                <target>متن دکمه CTA</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaText.1">
+                <source>Enter the default text to be shown in CTA.</source>
+                <target>متن پیش‌فرضی را که در CTA نمایش داده می‌شود وارد کنید.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
