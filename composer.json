@@ -1,0 +1,34 @@
+{
+    "name": "respinar/contao-cta-bundle",
+    "description": "A Call to action bundle for Contao CMS",
+    "keywords": ["contao", "CTA", "bundle"],
+    "type": "contao-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamid Peywasti",
+            "email": "hamid@respinar.com",
+            "homepage": "https://respinar.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/respinar/contao-cta-bundle/issues",
+        "source": "https://github.com/respinar/contao-cta-bundle"
+    },
+    "require": {
+        "php": "^8.0",
+        "contao/core-bundle":"^5.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Respinar\\ContaoCtaBundle\\": "src/"
+        }
+    },    
+    "extra": {
+        "contao-manager-plugin": "Respinar\\ContaoCtaBundle\\ContaoManager\\Plugin"
+    }
+}
