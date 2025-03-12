@@ -9,7 +9,7 @@
 
             <!-- Fields -->
             <trans-unit id="tl_page.ctaDisabled.0">
-                <source>Disable cta</source>
+                <source>Disable CTA button</source>
             </trans-unit>
             <trans-unit id="tl_page.ctaDisabled.1">
                 <source>Check this box to disable the CTA button on this page.</source>
@@ -30,10 +30,10 @@
             </trans-unit>
 
             <trans-unit id="tl_page.ctaText.0">
-                <source>Button text</source>
+                <source>CTA button text</source>
             </trans-unit>
             <trans-unit id="tl_page.ctaText.1">
-                <source>Enter the tex of button of CTA.</source>
+                <source>Enter the text of button of CTA.</source>
             </trans-unit>
         </body>
     </file>
