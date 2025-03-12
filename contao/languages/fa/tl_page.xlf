@@ -10,7 +10,7 @@
 
             <!-- Fields -->
             <trans-unit id="tl_page.ctaDisabled.0">
-                <source>Disable cta</source>
+                <source>Disable CTA</source>
                 <target>غیرفعال کردن CTA</target>
             </trans-unit>
             <trans-unit id="tl_page.ctaDisabled.1">
@@ -37,11 +37,11 @@
             </trans-unit>
 
             <trans-unit id="tl_page.ctaText.0">
-                <source>Button text</source>
-                <target>متن دکمه</target>
+                <source>CTA button text</source>
+                <target>متن دکمه CTA</target>
             </trans-unit>
             <trans-unit id="tl_page.ctaText.1">
-                <source>Enter the tex of button of CTA.</source>
+                <source>Enter the text of button of CTA.</source>
                 <target>متن دکمه CTA را وارد کنید.</target>
             </trans-unit>
         </body>
