@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Contao\StringUtil;
 
-#[AsFrontendModule(category: "miscellaneous", type: "calltoaction", template: "mod_cta")]
+#[AsFrontendModule(category: "miscellaneous", type: "calltoaction")]
 class CtaController extends AbstractFrontendModuleController
 {
     protected function getResponse(FragmentTemplate $template, ModuleModel $model, Request $request): Response
