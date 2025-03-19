@@ -1,6 +1,11 @@
 <!-- indexer::stop -->
-{% block cta %}
-    <div id="{{ cssId }}" class="module-cta {{ cssClass }}">
+{% block calltoaction %}
+    {% set attributes = attrs()
+      .setIfExists('id', element_html_id)
+      .addClass([element_css_classes, "module-#{type|replace({'_': '-'})}"])
+      .mergeWith(attributes|default)
+    %}
+    <div {% block attributes %}{{ attributes }}{% endblock %}>
         <a href="{{ ctaUrl }}" title="{{ ctaTitle }}">
             <span>{{ ctaText }}</span>
         </a>
