@@ -11,7 +11,6 @@ use Contao\ModuleModel;
 use Contao\PageModel;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Contao\StringUtil;
 
 #[AsFrontendModule(category: "miscellaneous", type: "calltoaction")]
 class CtaController extends AbstractFrontendModuleController
@@ -36,11 +35,7 @@ class CtaController extends AbstractFrontendModuleController
         $template->set('ctaTitle', $page->ctaTitle ?: $rootPage->ctaTitle ?: $model->ctaTitle);
         $template->set('ctaUrl', $page->ctaUrl ?: $rootPage->ctaUrl ?: $model->ctaUrl);
         $template->set('ctaText', $page->ctaText ?: $rootPage->ctaText ?: $model->ctaText);
-
-        $cssID = StringUtil::deserialize($model->cssID);
-        $template->set('cssId', $cssID[0] ?? '');
-        $template->set('cssClass', $cssID[1] ?? '');
-
+        
         return $template->getResponse();
     }
 }
