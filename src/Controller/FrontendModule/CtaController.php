@@ -24,8 +24,39 @@ class CtaController extends AbstractFrontendModuleController
             return new Response();
         }
 
-        if ($page->ctaDisabled ?? $rootPage->ctaDisabled ?? false) {
-            return new Response();
+        $ctaData = [       
+            'title' => null,
+            'url' => null,
+            'text' => null,
+        ];
+
+        while ($page !== null) {
+    
+            // Set only if not already set and the page value is non-empty
+            if (empty($ctaData['title']) && !empty(trim((string)$page->ctaTitle))) {
+                $ctaData['title'] = $page->ctaTitle;
+            }
+
+            if (empty($ctaData['url']) && !empty(trim((string)$page->ctaUrl))) {
+                $ctaData['url'] = $page->ctaUrl;
+            }
+
+            if (empty($ctaData['text']) && !empty(trim((string)$page->ctaText))) {
+                $ctaData['text'] = $page->ctaText;
+            }
+
+            // If all are filled, break
+            if (!empty($ctaData['title']) && !empty($ctaData['url']) && !empty($ctaData['text'])) {
+                break;
+            }
+    
+            // If all values are found, break
+            if ($ctaData['title'] && $ctaData['url'] && $ctaData['text']) {
+                break;
+            }
+
+            // Move to parent
+            $page = PageModel::findById($page->pid);
         }
 
         // Assign data to the template
