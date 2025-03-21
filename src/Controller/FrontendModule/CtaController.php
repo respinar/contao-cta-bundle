@@ -60,9 +60,9 @@ class CtaController extends AbstractFrontendModuleController
         }
 
         // Assign data to the template
-        $template->set('ctaTitle', $page->ctaTitle ?: $rootPage->ctaTitle ?: $model->ctaTitle);
-        $template->set('ctaUrl', $page->ctaUrl ?: $rootPage->ctaUrl ?: $model->ctaUrl);
-        $template->set('ctaText', $page->ctaText ?: $rootPage->ctaText ?: $model->ctaText);
+        $template->set('ctaTitle', $ctaData['title'] ?? $model->ctaTitle);
+        $template->set('ctaUrl', $ctaData['url'] ?? $model->ctaUrl);
+        $template->set('ctaText', $ctaData['text'] ?? $model->ctaText);
 
         $template->set('searchable', False);
         
