@@ -4,10 +4,18 @@ declare(strict_types=1);
 
 $GLOBALS["TL_DCA"]["tl_module"]["palettes"]["calltoaction"] = '
     {title_legend},name,type;
-    {whatsapp_legend},ctaText,ctaUrl,ctaTitle;
+    {whatsapp_legend},ctaText,ctaIsVisible,ctaUrl,ctaTitle;
     {template_legend:hide},cssID,customTpl;
     {protected_legend:hide},protected;
 ';
+
+// Define fields
+$GLOBALS["TL_DCA"]["tl_module"]["fields"]["ctaIsVisible"] = [
+    "exclude" => true,
+    "inputType" => "checkbox",
+    "eval" => ["tl_class" => "w50 m12"],
+    "sql" => ['type' => 'boolean', 'default' => true],
+];
 
 $GLOBALS["TL_DCA"]["tl_module"]["fields"]["ctaTitle"] = [
     "inputType" => "text",
