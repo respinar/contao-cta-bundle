@@ -40,4 +40,20 @@ class CtaController extends AbstractFrontendModuleController
         
         return $template->getResponse();
     }
+
+    private function isCtaVisible(PageModel $page, ModuleModel $model): bool
+    {
+
+        while ($page !== null) {
+            $visibility = $page->ctaVisibility;
+
+            if ($visibility !== 'default') {                
+                return $visibility === 'show';
+            }
+
+            $page = PageModel::findById($page->pid);
+        }      
+
+        return $model->ctaIsVisible; // default fallback = enabled
+    }
 }
