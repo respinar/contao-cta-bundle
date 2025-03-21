@@ -20,10 +20,7 @@ class CtaController extends AbstractFrontendModuleController
         // Check if the current page has CTA fields set
         $page = $this->getPageModel();
 
-        // Get the root page
-        $rootPage = PageModel::findById($page->rootId);
-        if ($rootPage === null) {
-            // Log an error or handle gracefully; for now, assume CTA is disabled
+        if (!$this->isCtaVisible($page, $model)) {
             return new Response();
         }
 
