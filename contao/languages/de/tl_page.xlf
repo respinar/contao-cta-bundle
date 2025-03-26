@@ -9,13 +9,13 @@
             </trans-unit>
 
             <!-- Fields -->
-            <trans-unit id="tl_page.ctaDisabled.0">
-                <source>Disable CTA</source>
-                <target>CTA deaktivieren</target>
+            <trans-unit id="tl_page.ctaVisibility.0">
+                <source>Call to Action Visibility</source>
+                <target>Sichtbarkeit des Call-to-Action</target>
             </trans-unit>
-            <trans-unit id="tl_page.ctaDisabled.1">
-                <source>Check this box to disable the CTA button on this page.</source>
-                <target>Aktivieren Sie dieses Kontrollkästchen, um die CTA-Schaltfläche auf dieser Seite zu deaktivieren.</target>
+            <trans-unit id="tl_page.ctaVisibility.1">
+                <source>Define whether the Call to Action should be shown or hidden on this page. Use "Inherit" to inherit the setting from the parent page or module settings.</source>
+                <target>Legen Sie fest, ob der Call-to-Action auf dieser Seite angezeigt oder ausgeblendet werden soll. Verwenden Sie "Vererben", um die Einstellung von der übergeordneten Seite oder dem Modul zu übernehmen.</target>
             </trans-unit>
 
             <trans-unit id="tl_page.ctaTitle.0">
