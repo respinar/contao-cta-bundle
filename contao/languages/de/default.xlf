@@ -10,6 +10,18 @@
         <source>CTA button</source>
         <target>CTA-Schaltfläche</target>
       </trans-unit>
+      <trans-unit id="ctaVisibilityOptions.default">
+        <source>Inherit</source>
+        <target>Vererben</target>
+      </trans-unit>
+      <trans-unit id="ctaVisibilityOptions.show">
+        <source>Show</source>
+        <target>Anzeigen</target>
+      </trans-unit>
+      <trans-unit id="ctaVisibilityOptions.hide">
+        <source>Hide</source>
+        <target>Ausblenden</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
