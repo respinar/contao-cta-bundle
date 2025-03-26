@@ -17,7 +17,14 @@
                 <source>Enter the title for the CTA module.</source>
                 <target>عنوان ماژول CTA را وارد کنید.</target>
             </trans-unit>
-
+            <trans-unit id="tl_module.ctaIsVisible.0">
+                <source>Display Call to Action</source>
+                <target>نمایش فراخوان به اقدام (CTA)</target>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaIsVisible.1">
+                <source>Show the CTA element on the page if it is visible in the page hierarchy.</source>
+                <target>در صورت فعال بودن در سلسله‌مراتب صفحات، عنصر فراخوان به اقدام را در صفحه نمایش می‌دهد.</target>
+            </trans-unit>
             <trans-unit id="tl_module.ctaUrl.0">
                 <source>CTA Url</source>
                 <target>آدرس URL CTA</target>
