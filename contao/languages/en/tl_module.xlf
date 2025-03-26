@@ -14,7 +14,12 @@
             <trans-unit id="tl_module.ctaTitle.1">
                 <source>Enter the title for the CTA module.</source>
             </trans-unit>
-
+            <trans-unit id="tl_module.ctaIsVisible.0">
+                <source>Display Call to Action</source>
+            </trans-unit>
+            <trans-unit id="tl_module.ctaIsVisible.1">
+                <source>Show the CTA element on the page if it is visible in the page hierarchy.</source>
+            </trans-unit>
             <trans-unit id="tl_module.ctaUrl.0">
                 <source>CTA Url</source>
             </trans-unit>
