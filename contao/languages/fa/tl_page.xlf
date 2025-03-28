@@ -14,8 +14,8 @@
                 <target>قابلیت نمایش فراخوان به اقدام (CTA)</target>
             </trans-unit>
             <trans-unit id="tl_page.ctaVisibility.1">
-                <source>Define whether the Call to Action should be shown or hidden on this page. Use "Inherit" to inherit the setting from the parent page or module settings.</source>
-                <target>تعیین کنید که آیا عنصر فراخوان به اقدام باید در این صفحه نمایش داده شود یا پنهان بماند. از گزینه "ارث‌بری" برای استفاده از تنظیمات صفحه والد یا ماژول استفاده کنید.</target>
+                <source>Define whether the Call to Action should be shown or hidden on this page. Leave it blank to inherit the setting from the parent page or module settings.</source>
+                <target>تعیین کنید که آیا عنصر دعوت به اقدام (Call to Action) باید در این صفحه نمایش داده شود یا خیر. برای ارث‌بری از صفحه والد یا تنظیمات ماژول، این فیلد را خالی بگذارید.</target>
             </trans-unit>
 
             <trans-unit id="tl_page.ctaTitle.0">
