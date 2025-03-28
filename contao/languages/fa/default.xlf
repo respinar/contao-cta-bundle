@@ -10,10 +10,6 @@
         <source>CTA button</source>
         <target>دکمه اقدام</target>
       </trans-unit>
-      <trans-unit id="ctaVisibilityOptions.default">
-        <source>Inherit</source>
-        <target>ارث‌بری</target>
-      </trans-unit>
       <trans-unit id="ctaVisibilityOptions.show">
         <source>Show</source>
         <target>نمایش</target>
