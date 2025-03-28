@@ -75,7 +75,7 @@ class CtaController extends AbstractFrontendModuleController
         while ($page !== null) {
             $visibility = $page->ctaVisibility;
 
-            if ($visibility !== 'default') {                
+            if ($visibility) {          
                 return $visibility === 'show';
             }
 
