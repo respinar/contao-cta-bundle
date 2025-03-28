@@ -82,6 +82,6 @@ class CtaController extends AbstractFrontendModuleController
             $page = PageModel::findById($page->pid);
         }      
 
-        return $model->ctaIsVisible; // default fallback = enabled
+        return $model->ctaIsVisible;
     }
 }
