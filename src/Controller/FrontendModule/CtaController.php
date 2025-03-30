@@ -75,8 +75,12 @@ class CtaController extends AbstractFrontendModuleController
         while ($page !== null) {
             $visibility = $page->ctaVisibility;
 
-            if ($visibility) {          
-                return $visibility === 'show';
+            if ($visibility === 'show') {          
+                return true;
+            }
+
+            if ($visibility === 'hide') {          
+                return false;
             }
 
             $page = PageModel::findById($page->pid);
